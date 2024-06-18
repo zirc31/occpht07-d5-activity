@@ -11,6 +11,9 @@
 html, body {
     width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1,h2,h3,h4,h5,h6 {
     color: #800000;
     font-weight: 700;

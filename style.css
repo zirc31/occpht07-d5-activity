@@ -33,10 +33,11 @@ header {
     top: 0;
     padding-bottom: 10px;
     width: 100%;
-    background-color: grey;
+    background-color: #21252f;
 }
 header h4 {
     padding: 10px 0;
+    color: white;
 }
 header ul li {
     display: inline;
@@ -48,9 +49,14 @@ header ul li:hover {
     background-color: #800000;
     color: white;
 }
-header ul li a, a:link, a:visited, a:hover, a:active {
+header ul li a,
+header ul li a:link,
+header ul li a:visited,
+header ul li a:hover,
+header ul li a:active {
     text-decoration: none;
-    color: #800000;
+    /* color: #800000; */
+    color: white;
 }
 header ul li a:hover {
     color: white;
@@ -59,6 +65,14 @@ header ul li a:hover {
 /* Hero Section */
 .hero, .full-vh {
     height: 100vh;
+}
+.hero a,
+.hero a:link,
+.hero a:visited,
+.hero a:hover,
+.hero a:active {
+    text-decoration: none;
+    color: #800000;
 }
 
 /* Main */

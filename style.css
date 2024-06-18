@@ -24,12 +24,6 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;    
 }
 
-.draft-content-filler {
-    margin: 10px;
-    padding: 50px;
-    background-color: lightcoral;
-}
-
 /* Header */
 header {
     position: fixed;
@@ -68,9 +62,19 @@ header ul li a:hover {
     color: white;
 }
 
-/* Hero Section */
-.hero, .full-vh {
+.full-vh {
     height: 100vh;
+}
+.full-width {
+    width: 100%;
+}
+
+/* Main */
+/* Hero Section */
+.hero h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 .hero a,
 .hero a:link,
@@ -78,14 +82,38 @@ header ul li a:hover {
 .hero a:hover,
 .hero a:active {
     text-decoration: none;
-    color: #800000;
+    color: #ffffff;
+}
+.hero {
+    background-image: url('./cover.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
 }
 
-/* Main */
+.btn-got-a-proj, .btn-hire-me {
+    display: inline-block;
+    border: 1px #800000 solid;
+    padding: 7px 15px;
+    margin: 0;
+    font-size: medium;
+}
+.btn-got-a-proj {
+    background-color: #800000;
+}
+.btn-hire-me {
+    background-color: #ffffff;
+    color: #800000;
+}
+.btn-got-a-proj:hover, .btn-hire-me:hover {
+    cursor: pointer;
+}
 
 .who-am-i-section {
-    /* background-color: #21252f; */
     background-color: #fcfcfc;
+    /* background-color: rgba(128, 0, 0, 0.3); */
 }
 .sub-heading {
     display: inline-block;
@@ -95,6 +123,16 @@ header ul li a:hover {
     color: #21252f;
     font-size: medium;
     font-weight: bold;
+}
+
+.skills-section {
+    background-color: #ffffff;
+}
+.projects-section {
+    background-color: #fcfcfc;
+}
+.contact-section {
+    background-color: #ffffff;
 }
 
 /* Footer */

@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: 'Sora', 'Montserrat', sans-serif;
     text-align: center;
-    color: #800000;
 }
 html, body {
     width: 100%;
@@ -15,4 +14,37 @@ html, body {
 h1,h2,h3,h4,h5,h6 {
     color: #800000;
     font-weight: 700;
+}
+
+.draft-content-filler {
+    margin: 10px;
+    padding: 50px;
+    background-color: lightcoral;
+}
+
+footer {
+    font-size: small;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    background-color: #800000;
+    color: white;
+}
+footer a:link, a:visited a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    margin: 5px;
+}
+footer span {
+    padding: 5px 10px;
+    font-size: smaller;
+}
+footer span:hover {
+    font-weight: bold;
+    color:#800000;
+    background-color: white;
+    border-radius: 3px;
 }

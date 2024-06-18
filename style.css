@@ -15,12 +15,63 @@ h1,h2,h3,h4,h5,h6 {
     color: #800000;
     font-weight: 700;
 }
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
 
 .draft-content-filler {
     margin: 10px;
     padding: 50px;
     background-color: lightcoral;
 }
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: grey;
+}
+header h4 {
+    padding: 10px 0;
+}
+header ul li {
+    display: inline;
+    font-size: small;
+    margin: 0 5px;
+    padding: 10px;
+}
+header ul li:hover {
+    background-color: #800000;
+    color: white;
+}
+header ul li a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #800000;
+}
+header ul li a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero, .full-vh {
+    height: 100vh;
+}
+
+/* Main */
+
+.who-am-i-section {
+    /* background-color: #21252f; */
+    background-color: #fcfcfc;
+}
+.who-am-i-list {
+    text-align: left;
+}
+
+/* Footer */
 
 footer {
     font-size: small;
@@ -41,6 +92,7 @@ footer p {
 footer span {
     padding: 5px 10px;
     font-size: smaller;
+    color: white;
 }
 footer span:hover {
     font-weight: bold;
